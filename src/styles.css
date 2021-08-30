@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: yellow;
+}
+
+#heading{
+  background-color:yellowgreen ;
+  padding: 1rem 1rem
+  
+}
+
+h3{
+  background: aquamarine;
+ border-radius: 1rem ;
+ max-width: 15rem;
+ margin: auto;
+}
+
+#inputarea {
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+}
+
+
