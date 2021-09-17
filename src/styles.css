@@ -1,25 +1,40 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  background-color: yellow;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+
+:root {
+  --background-color: #d2dbeb;
+  --border-color: #abc4ff;
+  --text-color: #251e3e;
 }
 
-#heading{
-  background-color:yellowgreen ;
-  padding: 1rem 1rem
-  
+body {
+  background-color: var(--background-color);
 }
 
-h3{
-  background: aquamarine;
- border-radius: 1rem ;
- max-width: 15rem;
- margin: auto;
+.App {
+  font-family: "Noto Sans TC", sans-serif;
+  text-align: center;
+  color: var(--text-color);
+
+  padding-top: 3rem;
+}
+
+#heading {
+  background-color: yellowgreen;
+  padding: 1rem 1rem;
+}
+
+h3 {
+  background: var(--border-color);
+  border-radius: 1rem;
+  max-width: 15rem;
+  margin: auto;
 }
 
 #inputarea {
   padding: 0.5rem 0.5rem;
   border-radius: 1rem;
 }
-
-

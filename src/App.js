@@ -17,7 +17,7 @@ export default function App() {
   const [meaning, setMeaning] = useState("");
 
   function emojiInputHandler(event) {
-    // processing
+    
     var userInput = event.target.value;
 
     var meaning = emojiDictionary[userInput];
